@@ -1,0 +1,160 @@
+/* <style> */
+canvas {
+    display: block;
+    border: 2px solid #888;
+}
+
+.center {
+    /* text-align: center; */
+    opacity: 0;
+}
+
+textarea {
+    resize: none;
+    /* background-color: black; */
+    color: #000;
+}
+
+.imageBG {
+    background: url(Image/OREO-main-file_9_gif.gif) no-repeat center;
+    loop: infinite;
+    /* object-fit: fill; */
+    /* object-fit: cover; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    
+}
+
+.gifOut {
+    
+    background: url(Image/gif.png) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    /* display: none; */
+    /* z-index: 999; */
+
+    background-size: 100% 100%;
+    /* overflow: hidden; */
+    /* visibility: hidden; */
+}
+
+.position {
+    position: absolute;
+    bottom: 15%;
+    left: 1rem;
+    right: 1rem;
+    line-height: 32px;
+}
+
+.des {
+    /* font-family: "Pluto_Oreo"; */
+    /* src: url("Fonts/Pluto_Oreo.otf"); */
+    /* font-family: "Monstserrat-Regular"; */
+    /* font-family: "Helvetica Condensed "; */
+    font-family: "Pluto_Oreo";
+    color: #fff;
+    /* src: url(./Fonts/Montserrat-Regular.ttf); */
+    /* font-size: 1rem;*/
+    font-size: 1.8rem; 
+    pointer-events: none;
+    margin: 1px;
+    text-align: center;
+}
+
+.name {
+    /* font-family:Arial, Helvetica, sans-serif; */
+    /* HelveticaNeue-CondensedBold;  */
+    /* font-family: "Monstserrat-Regular"; */
+    font-family: "Pluto_Oreo";
+    /* font-family: "Helvetica Condensed "; */
+    color: #fff;
+    /* src: url(./Fonts/Montserrat-Regular.ttf); */
+    font-size: 1.8rem;
+    /* font-size:larger; pointer-events: none;  */
+    text-align: center;
+    margin: 1px;
+}
+.available{
+    font-family: "Pluto_Oreo";
+    /* "Pluto_Oreo"; */
+    color: #fff;
+    /* src: url(./Fonts/Montserrat-Regular.ttf); */
+    font-size: 1.8rem;
+    margin: auto;
+    /* font-size:larger; pointer-events: none;  */
+    text-align: center;
+}
+
+.downloadButtonDiv {
+    /* position:absolute; */
+    top: 1rem;
+    right: 1rem;
+    float: right;
+}
+.downloadButton{
+    background-color: transparent;
+    border: transparent;
+    color: #fff;
+}
+.mainBackGround{
+    background-color: #000;
+}
+/* </style> */
+
+/*
+@media only screen and (width: 360px) {
+    .position {
+        position: absolute;
+        bottom: 8rem;
+        left: 1rem;
+        right: 1rem;
+    }
+}
+
+@media only screen and (width: 384px) {
+    .position {
+        position: absolute;
+        bottom: 8rem;
+        left: 1rem;
+        right: 1rem;
+    }
+}
+@media only screen and (width: 390px) {
+    .position {
+        position: absolute;
+        bottom: 9rem;
+        left: 1rem;
+        right: 1rem;
+    }
+}
+
+@media only screen and (width: 810px) {
+    .position {
+        position: absolute;
+        bottom: 10rem;
+        left: 1rem;
+        right: 1rem;
+    }
+}
+@media only screen and (width: 375px) {
+    .position {
+        position: absolute;
+        bottom: 8rem;
+        left: 1rem;
+        right: 1rem;
+    }
+}
+
+@media (max-device-width: 375px) and (max-device-height: 667px) { 
+    .position {
+        position: absolute;
+        bottom: 7rem;
+        left: 1rem;
+        right: 1rem;
+    }
+}
+*/
