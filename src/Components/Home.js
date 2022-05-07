@@ -15,7 +15,6 @@ function Home() {
 
     async function submit() {
 
-
         if (isVal) {
             const userData = {
                 name,
@@ -27,6 +26,11 @@ function Home() {
         else {
             console.log("not submit" + isValidName + " " + isValidNo)
         }
+    }
+
+    function submit2() {
+        // alert("Gif Download Started")
+        console.log("Download Gif")
     }
     React.useEffect(() => {
         if (name === '') {
@@ -94,10 +98,16 @@ function Home() {
                         {/* <br /> */}
                         {/* <br /> */}
                         <div className="col-md-12 text-center">
-                            {/* <a href={`https://lit-mountain-07918.herokuapp.com/oreo_generate_gif?name=${name}&phone_number=${number}`}> */}
-                                <button onClick={submit} type="submit" className="submitButton ">Submit</button>
-                            {/* </a> */}
+                            {/* <a href={`https://lit-mountain-07918.herokuapp.com/oreo_generate_gif?name=${name}&phone_number=${number}&is_download=true`}> */}
                             
+                            {/* <button onClick={submit} type="submit" className="submitButton ">Submit</button> */}
+
+                            <a href={`https://lit-mountain-07918.herokuapp.com/oreo_generate_gif?name=${name}&phone_number=${number}&is_download=true`}>
+                                <button onClick={submit2} type="submit" className="submitButton ">Submit</button>
+                            </a>
+
+                            {/* </a> */}
+
                         </div>
                         {/* </form> */}
                     </div>
