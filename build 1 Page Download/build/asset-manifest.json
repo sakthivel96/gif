@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.71456bdc.css",
+    "main.js": "/static/js/main.c494a773.js",
+    "static/media/OREO-main-file_9_gif.gif": "/static/media/OREO-main-file_9_gif.57906175b6d3e0d601d5.gif",
+    "static/media/Oreo Ui backgroundFinal.png": "/static/media/Oreo Ui backgroundFinal.8ac6bbff0d186198158b.png",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.ac98a5f5ca71180fe293.ttf",
+    "static/media/gif.png": "/static/media/gif.884e88e7aa2734f53252.png",
+    "static/media/Pluto_Oreo.otf": "/static/media/Pluto_Oreo.6a97ab35200d619afc10.otf",
+    "index.html": "/index.html",
+    "main.71456bdc.css.map": "/static/css/main.71456bdc.css.map",
+    "main.c494a773.js.map": "/static/js/main.c494a773.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71456bdc.css",
+    "static/js/main.c494a773.js"
+  ]
+}

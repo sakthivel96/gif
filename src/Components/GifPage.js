@@ -119,13 +119,13 @@ function GifPage() {
             <div className='mainBackGround' >
 
                 <div id="rootDivId" className={("imageBG vh-100  ")}
-                // style={{ background: `url("https://lit-mountain-07918.herokuapp.com/oreo_generate_gif?name=${name}&phone_number=${no}") no-repeat center` }}
+                // style={{ background: `url("") no-repeat center` }}
                 >
                     {/* {screenShot ? ("gifOut vh-100 container ") : */}
                     <div className='downloadButtonDiv'>
 
                         {/* <button id="downloadButton" className='downloadButton' onClick={handleClickTakeScreenShot}><i class="fa" style={{ fontSize: "30px" }}>&#xf019;</i></button> */}
-                        <a href={`https://lit-mountain-07918.herokuapp.com/oreo_generate_gif?name=${name}&phone_number=${no}&is_download=true`} ><i className="fa" style={{ fontSize: "30px", color: '#fff' }}>&#xf019;</i></a>
+                        <a href={``} ><i className="fa" style={{ fontSize: "30px", color: '#fff' }}>&#xf019;</i></a>
                     </div>
                     {/* col-12  col-md-12 */}
 
